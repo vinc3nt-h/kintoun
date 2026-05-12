@@ -1,0 +1,49 @@
+{
+  "name": "kintoun",
+  "version": "0.1.0",
+  "description": "Drop-in AI route handler for any TypeScript runtime — Next.js, Hono, Bun, Cloudflare Workers",
+  "license": "MIT",
+  "author": "Vincent Herreros",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentherreros/kintoun.git"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "openai",
+    "anthropic",
+    "gemini",
+    "streaming",
+    "route-handler",
+    "nextjs",
+    "cloudflare-workers",
+    "bun"
+  ],
+  "files": ["dist"],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
+  },
+  "dependencies": {
+    "openai": "^4.98.0",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^3.0.0"
+  }
+}
