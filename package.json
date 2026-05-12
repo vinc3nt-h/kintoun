@@ -6,7 +6,7 @@
   "author": "Vincent Herreros",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vinc3nt-h/kintoun.git"
+    "url": "git+https://github.com/vinc3nt-h/kintoun.git"
   },
   "keywords": [
     "ai",
@@ -20,7 +20,9 @@
     "cloudflare-workers",
     "bun"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
