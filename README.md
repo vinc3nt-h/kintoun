@@ -6,8 +6,8 @@
   <p><strong>Drop-in AI route handler for any TypeScript runtime — one line, any provider.</strong></p>
 
   [![npm version](https://img.shields.io/npm/v/kintoun)](https://www.npmjs.com/package/kintoun)
-  [![last commit](https://img.shields.io/github/last-commit/vincentherreros/kintoun)](https://github.com/vincentherreros/kintoun)
-  [![license](https://img.shields.io/github/license/vincentherreros/kintoun)](https://github.com/vincentherreros/kintoun/blob/main/LICENSE)
+  [![last commit](https://img.shields.io/github/last-commit/vinc3nt-h/kintoun)](https://github.com/vinc3nt-h/kintoun)
+  [![license](https://img.shields.io/github/license/vinc3nt-h/kintoun)](https://github.com/vinc3nt-h/kintoun/blob/main/LICENSE)
 </div>
 
 ---
